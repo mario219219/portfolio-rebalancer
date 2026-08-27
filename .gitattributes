@@ -1,0 +1,10 @@
+# Default behavior
+vendor/* linguist-vendored
+*.html linguist-vendored
+go.sum linguist-generated
+themes/**/*.css linguist-detectable
+*.sh text eol=lf
+*.woff binary
+*.css linguist-detectable 
+*.json linguist-detectable=false
+docs/* linguist-vendored
